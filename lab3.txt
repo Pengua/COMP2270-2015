@@ -17,8 +17,63 @@ Identity:	(a+c)*a+c=a+c
 Idempotence:	a+c=a+c
 
 4.		a'*(a+b)+(b+a*a)*(a+b')
-Distributive:	a'*a+a'*b+(b+a*a)*(a+b')
-Complement:	0+a'*b+(b+a*a)*(a+b')
+Idempotence:	a'*(a+b)+(b+1)*(a+b')
+Identity:	a'*(a+b)+1*(a+b')
+Identity:	a'*(a+b)+(a+b')
+Commutative:	a'*(a+b')+(a+b)
+Distributive:	a'*a+a'*b'+(a+b)
+Complement:	0+a'*b'+(a+b)
+Identity:	a'*b'+(a+b)
+DeMorgan's:	a+b+a+b
+Idempotence:	a+b
 
+5.		(a'*b')+(a'*b)+(a*b')=(a*b)'
+Distributive:	a'*(b'+b)+(a*b')=(a*b)'
+Complement:	a'*1+(a*b')=(a*b)'
+Identity:	a'+(a*b')=(a*b)'
+Distributive:	a'*a + a'*b'=(a*b)'
+Complement:	0 + a'*b'=(a*b)'
+Identity:	a'*b'=(a*b)'
+DeMorgan's:	(a+b)'=(a*b)'
 
+8.a. You need 6 bits to represent the states.
+b. You need 3 bits to represent the inputs.
 
+9.
+
+States		Bits
+0 Cents		000
+5 Cents		001
+10 Cents	010
+15 Cents	100
+20 Cents	011
+25 Cents	101
+N/A		110
+N/A		111
+
+Inputs		Bits
+Quarter		00
+Dime		01
+Nickel		10
+N/A		11
+
+10.
+State	Input	Output
+000	00	101
+000	01	010
+000	10	001
+001	00	N/A
+001	01	100
+001	10	010
+010	00	N/A
+010	01	011
+010	10	100
+100	00	N/A
+100	01	101
+100	10	011
+011	00	N/A
+011	01	N/A
+011	10	101
+101	00	N/A
+101	01	N/A
+101	10	N/A
