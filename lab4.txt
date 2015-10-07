@@ -1,0 +1,18 @@
+This finite state machine is a Mealy machine because it depends on the type of input, the object or creature
+that the person carries over the river.
+
+fi	wi	gi	ci 	i	fo	wo	go	co	o
+0	0	0	0	2	1	0	1	0	0
+1	0	1	0	0	0	0	1	0	0
+0	0	1	0	3	1	0	1	1	0
+0	0	1	0	1	1	1	1	0	0				
+
+1	0	1	1	2	0	0	0	1	0				
+0	0	0	1	1	1	1	0	1	0			
+1	1	0	1	0	0	1	0	1	0			
+0	1	0	1	2	1	1	1	1	1				
+
+1	1	1	0	2	0	1	0	0	0				
+0	1	0	0	3	1	1	0	1	0				
+1	1	0	1	0	0	1	0	1	0			
+0	1	0	1	2	1	1	1	1	1
