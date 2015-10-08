@@ -1,0 +1,21 @@
+1. good
+
+2. good
+
+3. good
+
+4. -1: a*a=a in step 2
+
+5. -2: the identity->distributive step doesn't work so your DeMorgan's rule is bad
+
+6.
+
+7. -1: missing an input for the sum MUX
+
+8. -3: but you represent them with 3 and 2 bits in the following answer?
+
+9.
+
+10. -1: you didn't add a state for >25¢
+
+
