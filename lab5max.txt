@@ -1,0 +1,19 @@
+.data
+in1: .word 69 #load first var
+in2: .word 420 #load second var
+.text
+a_true: #move instruction 
+add $v0, $s1, $r0 #save s1 (a) to v0 (result)
+
+# main program
+main:
+la $s5, in1 #load in1 address
+la $s6, in2 #load in2 address
+
+lw $s1, 0($s5) #load in1 value
+lw $s2, 0($s6) #load in2 value
+
+add $s3, $r0, $r0 #reset s3 var
+slt $s3, $s1, $s2 #if in1 is less than in2, s3=1, otherwise, s3=0
+beq $s3, $r0, a_true #if s3=0, then in1 (s1) is max
+add $v0, $s2, $r0 #if s3=1, then in2 (s2) is max
