@@ -1,0 +1,7 @@
+LOAD R1, 0x8 #Load 0x8 into R1
+LOAD R2, 0xA #Load 0xA into R2
+SUB R3, R1, R2 #R3 = R1 - R2
+JZL R3, 6 #If R3 < 0, R2 > R1, go to line 7
+STOR R2, 0x0 #If R2 <= R1
+ADD R1, R2, R0 #R1 = R2, so the next instruction does nothing
+STOR R1, 0x0 #If you jumped here, you'll save R1, if not, R1=R2 so you'll save R2.
