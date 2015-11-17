@@ -1,0 +1,4 @@
+avg: r5 isn't initialized -2
+
+LOAD machine code is off -2
+jump machine code should be in hex -2

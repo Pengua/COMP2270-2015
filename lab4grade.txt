@@ -1,0 +1,5 @@
+The machine is a Moore machine because the output only depends on the state, not the specific input that brought you to that state. -4
+Missing the 1111 state in the state transition table -4
+
+Your logisim circuit is interesting! I was looking for a similar machine that could take an input from a user that specified a transition, and then decides if the system is in a final state. Your machine has a pre-programmed input that shows correct transitions to a solution with no inputs at all. Pretty cool, but not capturing the state transitions/inputs for the general problem -5
+

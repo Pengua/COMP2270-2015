@@ -1,0 +1,1 @@
+max: there's an infinite loop when in1 is larger -5
